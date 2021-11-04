@@ -1,0 +1,20 @@
+first_list = (7, 8, 9, 2, 3, 1, 4, 10, 5, 6)
+print("Lista initiala: ")
+print(first_list)
+second = list(first_list)
+second.sort()
+print("Lista ordonata crescator: ")
+print(second)
+print("Lista ordonata descrescator: ")
+print(second[::-1])
+print("Elementele pare: ")
+print(second[1::2])
+print("Elementele impare: ")
+print(second[::2])
+print("Multipli ai lui 3: ")
+print(list(filter(lambda x: (x % 3 == 0), second)))
+# list=[]
+# for x in second:
+#     if x % 3 == 0:
+#         list.append(x)
+# print(list)
