@@ -2,6 +2,10 @@ import random
 
 import numpy as np
 
+import tkinter
+from tkinter import *
+from tkinter import messagebox
+
 table = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 
 
@@ -107,9 +111,6 @@ def game():
 
 
 # game()
-import tkinter
-from tkinter import *
-from tkinter import messagebox
 
 root = tkinter.Tk()
 # root.geometry('500x600+300+300')
