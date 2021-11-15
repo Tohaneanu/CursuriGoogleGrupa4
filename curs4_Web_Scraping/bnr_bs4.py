@@ -35,6 +35,7 @@ link = BeautifulSoup(r.text, "html.parser")
 # print(link)
 
 title = link.find_all('div', attrs={'class': 'contentDiv'})[0]
+print(title)
 header = []
 dataset = []
 for tr_index in title.find_all('table'):
